@@ -26,25 +26,24 @@ Detect potential scams with the power of AI! Our Scam Detector Web Application s
 
 
 1. Clone the repository: \
-`git clone https://github.com/yourusername/scam-detector.git`
-
     ```
+    git clone https://github.com/yourusername/scam-detector.git 
     cd scam-detector
     ```
 
 
 2. Create and activate a virtual environment: \
-`python3 -m venv myenv`
-
     ```
+    python3 -m venv myenv
     source myenv/bin/activate  # For macOS
     myenv\Scripts\activate     # For Windows
     ```
 
 
-3. Install the required modules: \
-`pip install panel openai speechrecognition`
-
+3. Install the required modules: 
+    ```
+    pip install panel openai speechrecognition
+    ```
 
 ## **Setup**
 
@@ -53,12 +52,15 @@ Detect potential scams with the power of AI! Our Scam Detector Web Application s
 
 
 
-1. Activate the virtual environment: \
-`source myenv/bin/activate`
-2. Set your OpenAI API key: \
-`export OPENAI_API_KEY="YOUR_API_KEY"`
-3. Run the application: 
-
+1. Activate the virtual environment:
+   ```
+    source myenv/bin/activate
+   ```
+3. Set your OpenAI API key:
+   ```
+    export OPENAI_API_KEY="YOUR_API_KEY"
+   ```
+5. Run the application: 
     ```
     panel serve main.py --show
 
@@ -70,16 +72,23 @@ Detect potential scams with the power of AI! Our Scam Detector Web Application s
 
 
 
-1. Activate the virtual environment: \
-`myenv\Scripts\activate`
-2. Set your OpenAI API key:
-    * **Command Prompt (CMD)**: \
-`set OPENAI_API_KEY=YOUR_API_KEY`
-    * **PowerShell**: \
-`$env:OPENAI_API_KEY="YOUR_API_KEY"`
-3. Run the application: \
-`panel serve main.py --show`
-
+1. Activate the virtual environment:
+    ```
+    myenv\Scripts\activate
+    ```
+3. Set your OpenAI API key:
+    * **Command Prompt (CMD)**:
+    ```
+    set OPENAI_API_KEY=YOUR_API_KEY
+    ```
+    * **PowerShell**:
+    ```
+    $env:OPENAI_API_KEY="YOUR_API_KEY"
+    ```
+4. Run the application:
+    ```
+    panel serve main.py --show
+    ```
 
 ## **Usage**
 
