@@ -1,5 +1,7 @@
 # **Scam-Detector**
 
+Check out the demo [here](https://bit.ly/ScamTect)
+
 Detect potential scams with the power of AI! Our Scam Detector Web Application seamlessly integrates Python, OpenAI, Google's Speech-to-Text API, and the Panel framework to provide a simple UI for detecting scam likelihood from audio input.
 
 
